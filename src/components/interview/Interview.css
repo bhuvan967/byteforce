@@ -1,0 +1,34 @@
+.interview-root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #0f172a;
+  color: #e6eef8;
+}
+.interview-main {
+  display: flex;
+  flex: 1;
+  padding: 12px;
+  gap: 12px;
+}
+.video-grid {
+  flex: 2;
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 12px;
+}
+.video-large {
+  background: #0b1220;
+  border-radius: 8px;
+  display:flex;align-items:center;justify-content:center;position:relative;
+  font-size:18px;color:#9fb4d9;padding:12px;
+}
+.video-small {background:#071028;border-radius:8px;display:flex;align-items:center;justify-content:center;color:#9fb4d9}
+.interview-side {flex:0.9;display:flex;flex-direction:column;gap:12px}
+.question-panel {background:#071028;padding:12px;border-radius:8px}
+.transcript {background:#071028;padding:12px;border-radius:8px;flex:1;display:flex;flex-direction:column}
+.transcript-list{overflow:auto;max-height:240px}
+.transcript-line{padding:6px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.interview-controls {padding:8px;display:flex;gap:8px;justify-content:center;background:transparent}
+.ctrl-btn{background:#1f2937;color:#fff;padding:8px 12px;border-radius:6px;border:none}
+.ctrl-btn.exit{background:#ef4444}

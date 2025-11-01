@@ -1,0 +1,19 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Matches collection: store 1v1 match state
+    match /matches/{matchId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Queue documents used for deterministic matchmaking
+    match /queues/{queueId} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Search records to log user's matchmaking options and status
+    match /searches/{searchId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

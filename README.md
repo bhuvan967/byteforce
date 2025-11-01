@@ -1,3 +1,54 @@
+# Byteforce
+## Firebase Firestore rules for Compete (1v1)
+
+If you see permission-denied errors like:
+
+- 403 Forbidden on `documents:batchGet`
+- Firestore RPC BatchGetDocuments failed with `permission-denied`
+
+Update your Firestore rules to allow authenticated users to read/write the `matches` and `queues` collections used by Compete:
+
+1) Open Firebase Console → Firestore Database → Rules
+2) Replace with the rules below and Publish
+
+```
+rules_version = '2';
+service cloud.firestore {
+	match /databases/{database}/documents {
+		match /matches/{matchId} {
+			allow read, write: if request.auth != null;
+		}
+		match /queues/{queueId} {
+			allow read, write: if request.auth != null;
+		}
+	}
+}
+```
+
+Alternatively, use the `firestore.rules` file in this repo and deploy via the Firebase CLI.
+
+## Authorized domains for Firebase Auth
+
+To resolve `auth/unauthorized-domain` when signing in from another device, add these to Firebase Authentication → Settings → Authorized domains:
+
+- localhost
+- 127.0.0.1
+- Your LAN IP (e.g., 192.168.x.x) if testing across devices
+- Any tunnel domain you use (e.g., your-subdomain.ngrok-free.app)
+- Your production domain (e.g., app.yourdomain.com)
+
+## Firestore networking in restricted networks
+
+Some networks block streaming transports and cause 400 errors on Firestore Listen channels. This app configures Firestore to use long polling in `src/firebase.js`:
+
+```
+initializeFirestore(app, {
+	experimentalForceLongPolling: true,
+	useFetchStreams: false,
+});
+```
+
+This improves reliability on corporate/restricted Wi‑Fi.
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,724 @@
+[
+  {
+    "id": "sum-two",
+    "title": "Sum of Two Integers",
+    "difficulty": "Easy",
+    "statement": "Read two integers and output their sum.",
+    "input": "Two integers a and b separated by space",
+    "output": "Single integer representing a + b",
+    "tests": [
+      { "in": "2 3", "out": "5" },
+      { "in": "-7 4", "out": "-3" }
+    ]
+  },
+  {
+    "id": "reverse-string",
+    "title": "Reverse String",
+    "difficulty": "Easy",
+    "statement": "Read a single line string and print its reverse.",
+    "input": "One line string",
+    "output": "Reversed string",
+    "tests": [
+      { "in": "hello", "out": "olleh" },
+      { "in": "ByteForce", "out": "ecroFetyB" }
+    ]
+  },
+  {
+    "id": "count-words",
+    "title": "Count Words",
+    "difficulty": "Easy",
+    "statement": "Read a line and count the number of space-separated words.",
+    "input": "One line string",
+    "output": "Integer word count",
+    "tests": [
+      { "in": "one two three", "out": "3" },
+      { "in": "  spaced   out  ", "out": "2" }
+    ]
+  },
+  {
+    "id": "factorial",
+    "title": "Factorial",
+    "difficulty": "Easy",
+    "statement": "Read an integer n (0<=n<=12) and output n!.",
+    "input": "Integer n",
+    "output": "Factorial of n",
+    "tests": [
+      { "in": "0", "out": "1" },
+      { "in": "5", "out": "120" }
+    ]
+  },
+  {
+    "id": "fibonacci-nth",
+    "title": "Nth Fibonacci",
+    "difficulty": "Easy",
+    "statement": "Read n and output the nth Fibonacci number with F0=0, F1=1.",
+    "input": "Integer n",
+    "output": "Integer Fn",
+    "tests": [
+      { "in": "7", "out": "13" },
+      { "in": "1", "out": "1" }
+    ]
+  },
+  {
+    "id": "palindrome-check",
+    "title": "Palindrome Check",
+    "difficulty": "Easy",
+    "statement": "Read a string and print YES if it's a palindrome ignoring case and spaces, else NO.",
+    "input": "One line",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "race car", "out": "YES" },
+      { "in": "hello", "out": "NO" }
+    ]
+  },
+  {
+    "id": "max-of-array",
+    "title": "Maximum of Array",
+    "difficulty": "Easy",
+    "statement": "Read n then n integers and print the maximum.",
+    "input": "n followed by n integers",
+    "output": "Maximum integer",
+    "tests": [
+      { "in": "5\n1 9 3 7 2", "out": "9" },
+      { "in": "3\n-5 -2 -10", "out": "-2" }
+    ]
+  },
+  {
+    "id": "min-of-array",
+    "title": "Minimum of Array",
+    "difficulty": "Easy",
+    "statement": "Read n then n integers and print the minimum.",
+    "input": "n followed by n integers",
+    "output": "Minimum integer",
+    "tests": [
+      { "in": "4\n4 2 7 3", "out": "2" },
+      { "in": "2\n-1 -5", "out": "-5" }
+    ]
+  },
+  {
+    "id": "sum-of-array",
+    "title": "Sum of Array",
+    "difficulty": "Easy",
+    "statement": "Read n then n integers and print their sum.",
+    "input": "n followed by n integers",
+    "output": "Sum",
+    "tests": [
+      { "in": "3\n1 2 3", "out": "6" },
+      { "in": "5\n-1 -2 -3 -4 -5", "out": "-15" }
+    ]
+  },
+  {
+    "id": "average-of-array",
+    "title": "Average of Array",
+    "difficulty": "Easy",
+    "statement": "Read n then n integers and print floor of their average.",
+    "input": "n followed by n integers",
+    "output": "Floor average",
+    "tests": [
+      { "in": "4\n1 2 3 4", "out": "2" },
+      { "in": "3\n2 2 3", "out": "2" }
+    ]
+  },
+  {
+    "id": "count-vowels",
+    "title": "Count Vowels",
+    "difficulty": "Easy",
+    "statement": "Count vowels (aeiou) in a string (case-insensitive).",
+    "input": "One line",
+    "output": "Integer count",
+    "tests": [
+      { "in": "Hello World", "out": "3" },
+      { "in": "bcd", "out": "0" }
+    ]
+  },
+  {
+    "id": "remove-vowels",
+    "title": "Remove Vowels",
+    "difficulty": "Easy",
+    "statement": "Remove vowels from the input string (case-insensitive).",
+    "input": "One line",
+    "output": "String without vowels",
+    "tests": [
+      { "in": "beautiful", "out": "btfl" },
+      { "in": "AEIOUxyz", "out": "xyz" }
+    ]
+  },
+  {
+    "id": "is-anagram",
+    "title": "Anagram Check",
+    "difficulty": "Easy",
+    "statement": "Read two words and print YES if they are anagrams ignoring case, else NO.",
+    "input": "Two words separated by space",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "listen silent", "out": "YES" },
+      { "in": "hello world", "out": "NO" }
+    ]
+  },
+  {
+    "id": "gcd-two",
+    "title": "GCD of Two Numbers",
+    "difficulty": "Easy",
+    "statement": "Compute the greatest common divisor of two integers.",
+    "input": "Two integers",
+    "output": "GCD",
+    "tests": [
+      { "in": "24 18", "out": "6" },
+      { "in": "17 13", "out": "1" }
+    ]
+  },
+  {
+    "id": "lcm-two",
+    "title": "LCM of Two Numbers",
+    "difficulty": "Easy",
+    "statement": "Compute the least common multiple of two integers.",
+    "input": "Two integers",
+    "output": "LCM",
+    "tests": [
+      { "in": "4 6", "out": "12" },
+      { "in": "21 6", "out": "42" }
+    ]
+  },
+  {
+    "id": "power-of-two",
+    "title": "Power of Two",
+    "difficulty": "Easy",
+    "statement": "Print YES if n is a power of two, else NO.",
+    "input": "Integer n",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "16", "out": "YES" },
+      { "in": "18", "out": "NO" }
+    ]
+  },
+  {
+    "id": "prime-check",
+    "title": "Prime Check",
+    "difficulty": "Easy",
+    "statement": "Print YES if n is prime, else NO.",
+    "input": "Integer n",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "29", "out": "YES" },
+      { "in": "1", "out": "NO" }
+    ]
+  },
+  {
+    "id": "duplicates",
+    "title": "Find Duplicates",
+    "difficulty": "Easy",
+    "statement": "Read n then n integers and print duplicates in increasing order, space-separated. If none, print NONE.",
+    "input": "n then array",
+    "output": "Duplicates or NONE",
+    "tests": [
+      { "in": "6\n1 2 2 3 3 4", "out": "2 3" },
+      { "in": "4\n1 2 3 4", "out": "NONE" }
+    ]
+  },
+  {
+    "id": "unique-count",
+    "title": "Unique Elements Count",
+    "difficulty": "Easy",
+    "statement": "Count unique elements in the array.",
+    "input": "n then array",
+    "output": "Integer count",
+    "tests": [
+      { "in": "5\n1 1 2 2 3", "out": "3" },
+      { "in": "3\n5 5 5", "out": "1" }
+    ]
+  },
+  {
+    "id": "second-largest",
+    "title": "Second Largest",
+    "difficulty": "Easy",
+    "statement": "Print the second largest distinct element in the array. If it doesn't exist, print NONE.",
+    "input": "n then array",
+    "output": "Second largest or NONE",
+    "tests": [
+      { "in": "5\n1 2 3 4 5", "out": "4" },
+      { "in": "3\n7 7 7", "out": "NONE" }
+    ]
+  },
+
+  {
+    "id": "two-sum",
+    "title": "Two Sum Index",
+    "difficulty": "Medium",
+    "statement": "Given n, target and array, output indices (0-based) of two numbers that add up to target. If multiple, any. Input format: n, target, then n numbers.",
+    "input": "n, target, then array",
+    "output": "i j or NONE",
+    "tests": [
+      { "in": "4 9\n2 7 11 15", "out": "0 1" },
+      { "in": "3 6\n3 2 4", "out": "1 2" }
+    ]
+  },
+  {
+    "id": "longest-substring",
+    "title": "Longest Substring Without Repeating",
+    "difficulty": "Medium",
+    "statement": "Given a string, output the length of the longest substring without repeating characters.",
+    "input": "string s",
+    "output": "integer length",
+    "tests": [
+      { "in": "abcabcbb", "out": "3" },
+      { "in": "bbbbb", "out": "1" }
+    ]
+  },
+  {
+    "id": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Medium",
+    "statement": "Given a string of brackets (){}[], print YES if valid, else NO.",
+    "input": "string s",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "()[]{}", "out": "YES" },
+      { "in": "(]", "out": "NO" }
+    ]
+  },
+  {
+    "id": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "statement": "Given m followed by m intervals (l r), merge overlapping intervals and output merged in increasing order as l r per line.",
+    "input": "m then m pairs",
+    "output": "merged intervals",
+    "tests": [
+      { "in": "3\n1 3\n2 6\n8 10", "out": "1 6\n8 10" },
+      { "in": "2\n1 4\n4 5", "out": "1 5" }
+    ]
+  },
+  {
+    "id": "meeting-rooms",
+    "title": "Meeting Rooms Can Attend",
+    "difficulty": "Medium",
+    "statement": "Given meeting intervals, print YES if a person can attend all meetings (no overlaps), else NO.",
+    "input": "m then m intervals",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "2\n7 10\n2 4", "out": "YES" },
+      { "in": "2\n1 3\n2 4", "out": "NO" }
+    ]
+  },
+  {
+    "id": "max-subarray",
+    "title": "Maximum Subarray Sum",
+    "difficulty": "Medium",
+    "statement": "Given n and array, output the maximum subarray sum (non-empty).",
+    "input": "n then array",
+    "output": "max sum",
+    "tests": [
+      { "in": "9\n-2 1 -3 4 -1 2 1 -5 4", "out": "6" },
+      { "in": "5\n1 2 3 4 5", "out": "15" }
+    ]
+  },
+  {
+    "id": "product-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "statement": "Given n and array, output array where each element is the product of all other elements (no division). Output space-separated on one line.",
+    "input": "n then array",
+    "output": "array",
+    "tests": [
+      { "in": "4\n1 2 3 4", "out": "24 12 8 6" },
+      { "in": "3\n2 3 4", "out": "12 8 6" }
+    ]
+  },
+  {
+    "id": "rotate-matrix",
+    "title": "Rotate Matrix 90 Degrees",
+    "difficulty": "Medium",
+    "statement": "Given n then n x n matrix rows, rotate matrix 90 degrees clockwise and print rows.",
+    "input": "n then matrix",
+    "output": "rotated matrix",
+    "tests": [
+      { "in": "2\n1 2\n3 4", "out": "3 1\n4 2" },
+      { "in": "3\n1 2 3\n4 5 6\n7 8 9", "out": "7 4 1\n8 5 2\n9 6 3" }
+    ]
+  },
+  {
+    "id": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "statement": "Given m n then matrix, set entire row and column to zero if an element is zero. Print resulting matrix.",
+    "input": "m n then matrix",
+    "output": "matrix",
+    "tests": [
+      { "in": "3 3\n1 1 1\n1 0 1\n1 1 1", "out": "1 0 1\n0 0 0\n1 0 1" },
+      { "in": "2 2\n0 1\n2 3", "out": "0 0\n0 3" }
+    ]
+  },
+  {
+    "id": "spiral-matrix",
+    "title": "Spiral Matrix Print",
+    "difficulty": "Medium",
+    "statement": "Given m n then matrix, print elements in spiral order separated by space.",
+    "input": "m n then matrix",
+    "output": "elements in spiral order",
+    "tests": [
+      { "in": "3 3\n1 2 3\n4 5 6\n7 8 9", "out": "1 2 3 6 9 8 7 4 5" },
+      { "in": "2 3\n1 2 3\n4 5 6", "out": "1 2 3 6 5 4" }
+    ]
+  },
+  {
+    "id": "group-anagrams",
+    "title": "Group Anagrams (Counts)",
+    "difficulty": "Medium",
+    "statement": "Read n then n words. Output group sizes of anagrams in nondecreasing order separated by space.",
+    "input": "n then words",
+    "output": "group sizes",
+    "tests": [
+      { "in": "6\nbat tab eat tea tan nat", "out": "2 2 2" },
+      { "in": "3\nabc bca cab", "out": "3" }
+    ]
+  },
+  {
+    "id": "top-k-frequent",
+    "title": "Top-K Frequent Elements",
+    "difficulty": "Medium",
+    "statement": "Given n, k and array, print k most frequent elements in any order separated by space.",
+    "input": "n k then array",
+    "output": "k elements",
+    "tests": [
+      { "in": "6 2\n1 1 1 2 2 3", "out": "1 2" },
+      { "in": "7 1\n4 4 4 6 6 7 7", "out": "4" }
+    ]
+  },
+  {
+    "id": "kth-smallest",
+    "title": "Kth Smallest in Array",
+    "difficulty": "Medium",
+    "statement": "Read n, k and array; output the kth smallest (1-based).",
+    "input": "n k then array",
+    "output": "kth smallest",
+    "tests": [
+      { "in": "6 2\n7 10 4 3 20 15", "out": "4" },
+      { "in": "5 5\n7 7 7 7 7", "out": "7" }
+    ]
+  },
+  {
+    "id": "coin-change",
+    "title": "Coin Change (Min Coins)",
+    "difficulty": "Medium",
+    "statement": "Given m (number of coins), amount, then m coin values, print minimum number of coins to make amount; -1 if impossible.",
+    "input": "m amount then coins",
+    "output": "min coins or -1",
+    "tests": [
+      { "in": "3 11\n1 2 5", "out": "3" },
+      { "in": "2 3\n2 4", "out": "-1" }
+    ]
+  },
+  {
+    "id": "word-break",
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "statement": "Given a string s and n then n dictionary words, print YES if s can be segmented, else NO. Input on two lines: s then n and words.",
+    "input": "s line then: n and n words line",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "leetcode\n2 leet code", "out": "YES" },
+      { "in": "applepenapple\n2 apple pen", "out": "YES" }
+    ]
+  },
+  {
+    "id": "sliding-window-max",
+    "title": "Sliding Window Maximum",
+    "difficulty": "Medium",
+    "statement": "Given n, k and array, output max of each window of size k as space-separated list.",
+    "input": "n k then array",
+    "output": "window maxes",
+    "tests": [
+      { "in": "8 3\n1 3 -1 -3 5 3 6 7", "out": "3 3 5 5 6 7" },
+      { "in": "5 2\n4 2 12 3 5", "out": "4 12 12 5" }
+    ]
+  },
+  {
+    "id": "binary-search-index",
+    "title": "Binary Search Index",
+    "difficulty": "Medium",
+    "statement": "Given n, target and sorted array, print index of target or -1.",
+    "input": "n target then sorted array",
+    "output": "index or -1",
+    "tests": [
+      { "in": "6 5\n1 3 5 7 9 11", "out": "2" },
+      { "in": "4 8\n1 2 3 4", "out": "-1" }
+    ]
+  },
+  {
+    "id": "count-primes",
+    "title": "Count Primes < n",
+    "difficulty": "Medium",
+    "statement": "Given n, count primes strictly less than n.",
+    "input": "n",
+    "output": "count",
+    "tests": [
+      { "in": "10", "out": "4" },
+      { "in": "0", "out": "0" }
+    ]
+  },
+  {
+    "id": "longest-pal-substring",
+    "title": "Longest Palindromic Substring Length",
+    "difficulty": "Medium",
+    "statement": "Given a string, print the length of the longest palindromic substring.",
+    "input": "string",
+    "output": "length",
+    "tests": [
+      { "in": "babad", "out": "3" },
+      { "in": "cbbd", "out": "2" }
+    ]
+  },
+  {
+    "id": "search-2d-matrix",
+    "title": "Search a 2D Matrix",
+    "difficulty": "Medium",
+    "statement": "Given m n, a matrix where each row is sorted and the first integer of each row is greater than the last integer of the previous row, and a target t, print YES if found else NO. Input: m n, then matrix rows, then t.",
+    "input": "m n then matrix then t",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "3 4\n1 3 5 7\n10 11 16 20\n23 30 34 60\n3", "out": "YES" },
+      { "in": "3 4\n1 3 5 7\n10 11 16 20\n23 30 34 60\n13", "out": "NO" }
+    ]
+  },
+
+  {
+    "id": "median-two-sorted",
+    "title": "Median of Two Sorted Arrays",
+    "difficulty": "Hard",
+    "statement": "Given n, m and two sorted arrays, print the median as a decimal without trailing zeros (e.g., 2.5 or 2).",
+    "input": "n m then arrays",
+    "output": "median",
+    "tests": [
+      { "in": "2 2\n1 3\n2 4", "out": "2.5" },
+      { "in": "1 1\n1\n2", "out": "1.5" }
+    ]
+  },
+  {
+    "id": "edit-distance",
+    "title": "Edit Distance",
+    "difficulty": "Hard",
+    "statement": "Given two strings on one line separated by space, print the Levenshtein distance.",
+    "input": "s t",
+    "output": "distance",
+    "tests": [
+      { "in": "horse ros", "out": "3" },
+      { "in": "intention execution", "out": "5" }
+    ]
+  },
+  {
+    "id": "min-window-substring",
+    "title": "Minimum Window Substring Length",
+    "difficulty": "Hard",
+    "statement": "Given s and t on separate lines, print length of the minimum window in s that contains all characters of t (with multiplicity). If none, print 0.",
+    "input": "s line then t line",
+    "output": "length",
+    "tests": [
+      { "in": "ADOBECODEBANC\nABC", "out": "4" },
+      { "in": "a\naa", "out": "0" }
+    ]
+  },
+  {
+    "id": "trap-rain-water",
+    "title": "Trapping Rain Water",
+    "difficulty": "Hard",
+    "statement": "Given n then heights array, print total trapped water.",
+    "input": "n then heights",
+    "output": "water",
+    "tests": [
+      { "in": "12\n0 1 0 2 1 0 1 3 2 1 2 1", "out": "6" },
+      { "in": "3\n3 0 2", "out": "2" }
+    ]
+  },
+  {
+    "id": "largest-rectangle",
+    "title": "Largest Rectangle in Histogram",
+    "difficulty": "Hard",
+    "statement": "Given n then histogram heights, print area of largest rectangle.",
+    "input": "n then heights",
+    "output": "area",
+    "tests": [
+      { "in": "7\n2 1 5 6 2 3 1", "out": "10" },
+      { "in": "4\n2 4 2 1", "out": "6" }
+    ]
+  },
+  {
+    "id": "word-ladder-length",
+    "title": "Word Ladder Length",
+    "difficulty": "Hard",
+    "statement": "Given beginWord, endWord, and n then n words of dictionary (each same length) on separate lines, output the length of shortest transformation sequence; 0 if impossible.",
+    "input": "begin end then n and n words",
+    "output": "length",
+    "tests": [
+      { "in": "hit cog\n6 hot dot dog lot log cog", "out": "5" },
+      { "in": "hit cog\n5 hot dot dog lot log", "out": "0" }
+    ]
+  },
+  {
+    "id": "job-scheduling-profit",
+    "title": "Job Scheduling Max Profit",
+    "difficulty": "Hard",
+    "statement": "Given n then jobs as start end profit, choose non-overlapping jobs to maximize profit. Print max profit.",
+    "input": "n then n lines of s e p",
+    "output": "max profit",
+    "tests": [
+      { "in": "4\n1 2 50\n3 5 20\n6 19 100\n2 100 200", "out": "250" },
+      { "in": "3\n1 3 5\n2 5 6\n4 6 5", "out": "10" }
+    ]
+  },
+  {
+    "id": "n-queens-count",
+    "title": "N-Queens Solutions Count",
+    "difficulty": "Hard",
+    "statement": "Given n, count the number of distinct solutions to the n-queens puzzle.",
+    "input": "n",
+    "output": "count",
+    "tests": [
+      { "in": "4", "out": "2" },
+      { "in": "1", "out": "1" }
+    ]
+  },
+  {
+    "id": "lis-length",
+    "title": "Longest Increasing Subsequence Length",
+    "difficulty": "Hard",
+    "statement": "Given n then array, print length of LIS.",
+    "input": "n then array",
+    "output": "length",
+    "tests": [
+      { "in": "8\n10 9 2 5 3 7 101 18", "out": "4" },
+      { "in": "6\n0 1 0 3 2 3", "out": "4" }
+    ]
+  },
+  {
+    "id": "pal-partition-min-cut",
+    "title": "Palindrome Partitioning Min Cut",
+    "difficulty": "Hard",
+    "statement": "Given a string s, partition it so every substring is a palindrome. Print the minimum cuts needed.",
+    "input": "string s",
+    "output": "min cuts",
+    "tests": [
+      { "in": "aab", "out": "1" },
+      { "in": "a", "out": "0" }
+    ]
+  },
+  {
+    "id": "coin-change-ways",
+    "title": "Coin Change Ways",
+    "difficulty": "Hard",
+    "statement": "Given m, amount and m coin values, print the number of ways to make the amount.",
+    "input": "m amount then coins",
+    "output": "ways",
+    "tests": [
+      { "in": "3 5\n1 2 5", "out": "4" },
+      { "in": "2 3\n2 4", "out": "0" }
+    ]
+  },
+  {
+    "id": "subset-sum",
+    "title": "Subset Sum",
+    "difficulty": "Hard",
+    "statement": "Given n, target, and array, print YES if any subset sums to target, else NO.",
+    "input": "n target then array",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "6 9\n3 34 4 12 5 2", "out": "YES" },
+      { "in": "4 11\n1 2 3 9", "out": "NO" }
+    ]
+  },
+  {
+    "id": "mst-weight",
+    "title": "Minimum Spanning Tree Weight",
+    "difficulty": "Hard",
+    "statement": "Given n (nodes labeled 0..n-1), m and m edges u v w, print total weight of MST or -1 if disconnected.",
+    "input": "n m then edges",
+    "output": "weight",
+    "tests": [
+      { "in": "4 5\n0 1 10\n0 2 6\n0 3 5\n1 3 15\n2 3 4", "out": "19" },
+      { "in": "3 1\n0 1 5", "out": "-1" }
+    ]
+  },
+  {
+    "id": "count-inversions",
+    "title": "Count Inversions",
+    "difficulty": "Hard",
+    "statement": "Given n then array, count pairs i<j with a[i]>a[j].",
+    "input": "n then array",
+    "output": "count",
+    "tests": [
+      { "in": "5\n2 4 1 3 5", "out": "3" },
+      { "in": "5\n5 4 3 2 1", "out": "10" }
+    ]
+  },
+  {
+    "id": "min-window-sort",
+    "title": "Minimum Window to Sort",
+    "difficulty": "Hard",
+    "statement": "Given n then array, find length of the shortest subarray which, if sorted, results in the whole array being sorted.",
+    "input": "n then array",
+    "output": "length",
+    "tests": [
+      { "in": "7\n2 6 4 8 10 9 15", "out": "5" },
+      { "in": "5\n1 2 3 4 5", "out": "0" }
+    ]
+  },
+  {
+    "id": "dijkstra-shortest-path",
+    "title": "Dijkstra Shortest Path",
+    "difficulty": "Hard",
+    "statement": "Given n (0..n-1), m edges u v w (directed, nonnegative), and source s, target t, print shortest distance from s to t or -1 if unreachable. Input: n m, then m lines, then s t.",
+    "input": "n m edges then s t",
+    "output": "distance or -1",
+    "tests": [
+      { "in": "5 6\n0 1 2\n0 2 5\n1 2 1\n1 3 2\n2 3 1\n3 4 3\n0 4", "out": "8" },
+      { "in": "3 1\n0 1 5\n0 2", "out": "-1" }
+    ]
+  },
+  {
+    "id": "max-sum-rectangle",
+    "title": "Maximum Sum Rectangle",
+    "difficulty": "Hard",
+    "statement": "Given r c, then a r x c matrix (can include negatives), print the maximum sum of any sub-rectangle.",
+    "input": "r c then matrix",
+    "output": "max sum",
+    "tests": [
+      { "in": "4 5\n1 2 -1 -4 -20\n-8 -3 4 2 1\n3 8 10 1 3\n-4 -1 1 7 -6", "out": "29" },
+      { "in": "2 2\n-1 -2\n-3 -4", "out": "-1" }
+    ]
+  },
+  {
+    "id": "regex-matching",
+    "title": "Regex Matching (., *)",
+    "difficulty": "Hard",
+    "statement": "Implement regular expression matching with support for '.' and '*'. Given s and p on separate lines, print YES if p matches s entirely, else NO.",
+    "input": "s then p",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "aa\na", "out": "NO" },
+      { "in": "aa\na*", "out": "YES" }
+    ]
+  },
+  {
+    "id": "bipartite-graph",
+    "title": "Bipartite Graph Check",
+    "difficulty": "Hard",
+    "statement": "Given n, m and undirected edges u v, check if the graph is bipartite. Print YES or NO.",
+    "input": "n m then edges",
+    "output": "YES or NO",
+    "tests": [
+      { "in": "3 3\n0 1\n1 2\n0 2", "out": "NO" },
+      { "in": "4 3\n0 1\n2 3\n1 2", "out": "YES" }
+    ]
+  },
+  {
+    "id": "kth-smallest-sorted-matrix",
+    "title": "Kth Smallest in Sorted Matrix",
+    "difficulty": "Hard",
+    "statement": "Given n and an n x n matrix where each row and column is sorted ascending, and k, print the kth smallest element.",
+    "input": "n then matrix then k",
+    "output": "value",
+    "tests": [
+      { "in": "3\n1 5 9\n10 11 13\n12 13 15\n8", "out": "13" },
+      { "in": "2\n1 2\n1 3\n2", "out": "1" }
+    ]
+  }
+]

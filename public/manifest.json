@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "SkillIgnite",
+  "name": "Sharpen algorithms with real tests and head-to-head duels.",
   "icons": [
     {
       "src": "favicon.ico",
