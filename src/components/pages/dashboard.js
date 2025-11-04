@@ -152,6 +152,7 @@ const Dashboard = () => {
         
   <div className="mt-auto px-3 space-y-2 pb-6 border-t border-gray-200 pt-4">
           <button
+            onClick={() => { window.location.href = '/settings'; }}
             className={`group w-full flex items-center gap-4 px-4 py-3.5 rounded-lg text-base font-medium hover:bg-gray-100 transition-all duration-200 relative ${
               sidebarOpen ? "justify-start" : "justify-center"
             }`}

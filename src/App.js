@@ -10,6 +10,7 @@ import Ques1 from './components/pages/que1';
 import Ques2 from './components/pages/que2';
 import Ques3 from './components/pages/que3';
 import Ques4 from './components/pages/que4';
+import SettingsPage from './components/pages/settings';
 
 function App() {
   const path = window.location.pathname;
@@ -18,6 +19,7 @@ function App() {
   if (path.startsWith('/ques2')) return <Ques2 />;
   if (path.startsWith('/ques3')) return <Ques3 />;
   if (path.startsWith('/ques4')) return <Ques4 />;
+  if (path.startsWith('/settings')) return <SettingsPage />;
   if (path.startsWith('/dashboard')) return <Dashboard />;
   if (path.startsWith('/projects/') && path.split('/projects/')[1]) return <ProjectIDE />;
   if (path.startsWith('/projects')) return <Projects />;
